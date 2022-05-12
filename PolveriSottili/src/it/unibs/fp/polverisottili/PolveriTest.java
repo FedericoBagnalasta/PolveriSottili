@@ -6,7 +6,6 @@ import org.junit.Test;
 
 public class PolveriTest {
 	
-	//private int valori[] = new int[7];    funziona tutto anche togliendo questa riga
 
 	/**
 	 * valori tutti ugauli e sotto la soglia media
