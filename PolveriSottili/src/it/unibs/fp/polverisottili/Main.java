@@ -50,7 +50,7 @@ public class Main {
 		int numeroSettimana = InputDati.leggiIntero(INSERIMENTO_NUM_SETTIMANA, MIN_NUM_SETTIMANA , MAX_NUM_SETTIMANA);
 		int valori[] = new int[NUM_GIORNI_SETTIMANA];
 		for(int i = 0; i < NUM_GIORNI_SETTIMANA; i++) {
-			valori[i] = InputDati.leggiIntero(String.format(INSERIMENTO_LIVELLO_POLVERI, i + 1));   //riga da completare dato che non si vede in teams
+			valori[i] = InputDati.leggiIntero(String.format(INSERIMENTO_LIVELLO_POLVERI, i + 1));   
 		}
 		return new SettimanaPolveri(anno, numeroSettimana, valori);
 	}
